@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One);
+
+body {
+    background-color: #000;
+    color: #cecece;
+    font-family: 'Racing Sans One', cursive; 
+}
+
+.centrage {
+    margin: .5em auto;
+    overflow: auto;
+}
+
+clear{
+    clear: both;
+}
+
+nav{
+  
+    color: #cecece;
+    background-color: #28323B ;
+    background-position: bottom;
+    background-size: 20px;
+    border: solid 1px #cecece;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: -2.6em;
+    left: 60%;
+    position: fixed;
+    transition: all linear .4s;
+    z-index: 10;
+    
+}
+nav:hover{
+    top: 0;
+}
+
+
+nav .titre{
+    background:  url(../img/nav/menu-icon.png) no-repeat ;
+    background-size: .9em;
+    background-position: 39%;
+    display: inline-block;
+    width:100%;
+    text-align:center;
+    margin-bottom: .2em;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin: .5em;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: inherit;
+    color: #cecece;
+}
+
+
+header{
+    overflow: auto;
+}
+header h1{
+    background-color: inherit;
+    color: #FF7A4B;
+    font-size: 7em;  
+
+}
+
+header h2{
+    background-color: inherit;
+    color: #F3A1AF;
+    font-size: 3.5em;
+    float: right;
+}
+
+
+article.presente p{
+    background-color: inherit;
+    color: #cecece;
+    font-size: 2em;
+    text-align: center;
+}
+article.presente  a{
+    background-color: inherit;
+    color: #cecece;
+    text-decoration: none;
+}
+
+article.presente  a:hover{
+    background-color: inherit;
+    color: #cecece;
+    text-decoration: underline;
+}
+
+article.photo {
+    float: none;
+    display: block;
+    background-color: inherit;
+    text-align: center;
+
+}
+article.photo img{
+    /* max-width: 40em; */
+    width: 50%
+}
+
+footer{
+     background-color: #28323B;
+     color: #cecece;
+     text-align: center;
+}
+
+.fb-like{
+    vertical-align: top;
+    float: left;
+}

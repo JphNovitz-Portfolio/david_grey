@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One);
+
+body {
+    background: #000 /*url(../img/dg_bg_large.jpg)*/;
+    /*background-size: cover;*/
+    color: #000;
+    font-family: 'Racing Sans One', cursive; 
+    padding:0;
+}
+
+.centrage {
+    margin: .5em auto;
+    overflow: auto;
+}
+
+.largeur{
+    display: block;
+    width: 100%;
+    background-color: #464646;
+    /* border-radius:10px;*/
+    margin:0;
+    padding: 0;
+}
+clear{
+    clear: both;
+}
+
+
+nav{
+
+    color: #cecece;
+    background-color: #28323B ;
+    background-position: bottom;
+    background-size: 20px;
+    border: solid 1px #cecece;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: -2.6em;
+    left: 60%;
+    position: fixed;
+    transition: all linear .4s;
+    z-index: 10;
+
+}
+nav:hover{
+    top: 0;
+}
+
+
+nav .titre{
+    background:  url(../img/nav/menu-icon.png) no-repeat ;
+    background-size: .9em;
+    background-position: 39%;
+    display: inline-block;
+    width:100%;
+    text-align:center;
+    margin-bottom: .2em;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin: .5em;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: inherit;
+    color: #cecece;
+}
+
+.box{
+    background-color: #000;
+    border-top: solid  1px #656565;;
+    border-left: solid  1px #656565;;
+    border-bottom: solid  1px #656565;;
+    border-right: solid  1px #656565;;
+    -moz-box-shadow: 0px 6px 3px 0px #656565;
+    -webkit-box-shadow: 0px 6px 3px 0px #656565;
+    -o-box-shadow: 0px 6px 3px 0px #656565;
+    box-shadow: 0px 4px 3px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+header{
+    overflow: auto;
+    padding: 1%;
+
+}
+header h1{
+    background-color: inherit;
+    color: /*#FF7A4B #656565;*/#FA558A;
+    font-size: 4em;  
+    letter-spacing: .2em;
+    margin: 0;
+
+}
+
+header h2{
+    background-color: inherit;
+    color: #F3A1AF;
+    word-spacing: .2em;
+    letter-spacing: .15em;
+    font-style: oblique;
+    font-size: 2em;
+    margin: 0;
+}
+header p {
+    background-color: inherit;
+    color: #cecece;
+    font-size: 1.5em;
+}
+
+
+article.presente  {
+    float: none;
+    display: block;
+    padding: 1%; 
+    background-color: #000;
+    color: #cecece;
+    font-size: 2em;
+    text-align: center;
+}
+article.presente  a{
+    background-color: inherit;
+    color: #cecece;
+    text-decoration: none;
+}
+
+article.presente  a:hover{
+    background-color: inherit;
+    color: #cecece;
+    text-decoration: underline;
+}
+
+article.photo {
+    
+    background-color: #000;;
+    text-align: center; 
+
+}
+article.photo img{
+    /* max-width: 40em; */
+    width: 80%
+}
+
+footer{
+    text-align: center;
+    color: #cecece;
+    
+}
+
+footer a{
+    background: inherit;
+    color: #fff;
+}
+
+
+
+
+.fb-like{
+    vertical-align: top;
+    float: left;
+}
+
